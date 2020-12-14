@@ -665,7 +665,7 @@ ul {
 }
 
 .logo span {
-  margin-left: 10px;
+  margin: 0 10px 0 10px;
   color: $brand_color;
 }
 

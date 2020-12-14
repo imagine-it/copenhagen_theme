@@ -4,6 +4,8 @@
   "brand_color_label": "Brand color",
   "brand_text_color_description": "Brand color for hover and active states",
   "brand_text_color_label": "Brand text color",
+  "brand_name_label": "Show Help Center name",
+  "brand_name_description": "Display the Help Center name next to the logo",
   "text_color_description": "Text color for body and heading elements",
   "text_color_label": "Text color",
   "link_color_description": "Text color for link elements",

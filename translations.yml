@@ -354,6 +354,4 @@ parts:
       key: "txt.help_center_copenhagen_theme.show_brand_name_description"
       title: "Description for the show brand name setting"
       screenshot: "https://drive.google.com/file/d/16zQao3zk3uRScIUpkyc6bXAWwqHh3Zh-/view?usp=sharing"
-      value: "Display the Help Center name next to the logo
-"
-
+      value: "Display the Help Center name next to the logo"

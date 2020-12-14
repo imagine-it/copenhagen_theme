@@ -1,3 +1,24 @@
+## [2.7.1](https://github.com/zendesk/copenhagen_theme/compare/v2.7.0...v2.7.1) (2020-12-01)
+
+
+### Bug Fixes
+
+* **script:** [COMM-1283] Fix null error ([8f71ff8](https://github.com/zendesk/copenhagen_theme/commit/8f71ff804c8ada770b0c984dc0b1d49afbbed9e9))
+
+# [2.7.0](https://github.com/zendesk/copenhagen_theme/compare/v2.6.0...v2.7.0) (2020-11-30)
+
+
+### Features
+
+* **requests:** [COMM-1283] Check for "emptiness" when using WYSIWYG ([f9c81da](https://github.com/zendesk/copenhagen_theme/commit/f9c81dab432144790a41dff1dbc984fdd44ceb30))
+
+# [2.6.0](https://github.com/zendesk/copenhagen_theme/compare/v2.5.4...v2.6.0) (2020-11-23)
+
+
+### Features
+
+* add subsections pagination to section template ([6d0dcba](https://github.com/zendesk/copenhagen_theme/commit/6d0dcba859872a210a97efa980541c5098bebe2c))
+
 ## [2.5.4](https://github.com/zendesk/copenhagen_theme/compare/v2.5.3...v2.5.4) (2020-11-16)
 
 

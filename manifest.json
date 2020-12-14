@@ -27,14 +27,14 @@
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#333333"
+          "value": "#2F3941"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#17494D"
+          "value": "#1F73B7"
         },
         {
           "identifier": "background_color",

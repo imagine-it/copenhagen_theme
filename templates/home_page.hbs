@@ -2,6 +2,12 @@
 
 <section id="main-content" class="section hero">
   <div class="hero-inner">
+    <div class="brand-logo">
+      <a title="Startsida" href="/hc/sv">
+        <img src="https://theme.zdassets.com/theme_assets/2076264/63ef519da657db36b11fb36dc566ae71d20ebf7d.png" alt="Logotyp">
+      </a>
+      
+    </div>
     <h2 class="visibility-hidden">{{ t 'search' }}</h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
       <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
@@ -38,12 +44,12 @@
           {{/if}}
         {{/each}}
       </ul>
-      {{pagination}}
+  
     </section>
 
     {{#if promoted_articles}}
       <section class="articles">
-        <h2>{{t 'promoted_articles'}}</h2>
+        <h2>{{dc 'featured_questions' }}</h2>
         <ul class="article-list promoted-articles">
           {{#each promoted_articles}}
             <li class="promoted-articles-item">
@@ -61,23 +67,6 @@
           {{/each}}
         </ul>
       </section>
-    {{/if}}
-  </section>
-
-  {{#if help_center.community_enabled}}
-    <section class="section home-section community">
-      <h2>{{t 'community'}}</h2>
-      {{#link 'community' class='community-link'}}
-        {{t 'join_conversation'}}
-      {{/link}}
-
-      <div class="community-image"></div>
-    </section>
-  {{/if}}
-
-  <section class="section home-section activity">
-    {{#if settings.show_recent_activity}}
-      {{recent_activity}}
     {{/if}}
   </section>
 </div>

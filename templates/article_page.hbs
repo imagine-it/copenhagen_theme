@@ -1,4 +1,13 @@
-<div class="container-divider"></div>
+<section id="main-content" class="section subpage-hero">
+  <div class="hero-inner">
+    <div class="brand-logo">
+      <a title="Startsida" href="/hc/sv">
+        <img src="https://theme.zdassets.com/theme_assets/2076264/710d20b5ab3327d8f5054fd2f983f8bc8cff989c.svg" alt="Logotyp">
+      </a>
+    </div>
+  </div>
+</section>
+
 <div class="container">
   <nav class="sub-nav">
     {{breadcrumbs}}
@@ -24,7 +33,7 @@
             </svg>
           </button>
           <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
-            {{t 'articles_in_section'}}
+            {{dc 'section_header'}}
           </span>
           <div class="collapsible-sidebar-body">
             <ul>
@@ -71,15 +80,6 @@
                 {{article.author.name}}
               {{/link}}
             {{/if}}
-
-            <ul class="meta-group">
-              {{#is article.created_at article.edited_at}}
-                <li class="meta-data">{{date article.created_at timeago=true}}</li>
-              {{else}}
-                <li class="meta-data">{{date article.edited_at timeago=true}}</li>
-                <li class="meta-data">{{t 'updated'}}</li>
-              {{/is}}
-            </ul>
           </div>
         </div>
 
@@ -146,9 +146,6 @@
           </div>
         {{/with}}
 
-        <div class="article-more-questions">
-          {{request_callout}}
-        </div>
         <div class="article-return-to-top">
           <a href="#article-container">
             {{t 'return_to_top'}}

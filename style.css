@@ -986,7 +986,7 @@ ul {
 
 .search-icon {
   position: relative;
-  top: 88%;
+  bottom: 1%;
   transform: translateY(-50%);
   position: absolute;
   left: 15px;
@@ -1017,6 +1017,17 @@ ul {
   width: 100%;
 }
 
+.subpage-hero {
+  /*background-image: url($homepage_background_image);*/
+  background-color: #19759c;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
 .hero-inner {
   position: relative;
   top: 50%;
@@ -1027,7 +1038,7 @@ ul {
 
 .brand-logo img{
   maring-bottom: 20px;
-  height: 120px;
+  height: 80px;
 }
 
 .page-header {
@@ -1412,7 +1423,7 @@ ul {
 
 @media (min-width: 1024px) {
   .category-content {
-    flex: 0 0 80%;
+    flex: 0 0 100%;
   }
 }
 
@@ -1435,7 +1446,7 @@ ul {
 
 @media (min-width: 768px) {
   .section-tree .section {
-    flex: 0 0 45%;
+    flex: 0 0 25%;
     /* Two columns for tablet and desktop. Leaving 5% separation between columns */
   }
 }
@@ -1481,7 +1492,7 @@ ul {
 
 @media (min-width: 1024px) {
   .section-content {
-    flex: 0 0 80%;
+    flex: 0 0 100%;
   }
 }
 
@@ -1553,7 +1564,7 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
@@ -1793,6 +1804,10 @@ ul {
   font-weight: 300;
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.sidenav-item:first-child{
+  margin-top: 10px;
 }
 
 .sidenav-item.current-article, .sidenav-item:hover {

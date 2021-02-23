@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
-  "author": "Zendesk",
-  "version": "2.7.1",
+  "name": "Fakturan.nu",
+  "author": "Imagineit AB",
+  "version": "1.0.1",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [

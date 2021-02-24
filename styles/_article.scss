@@ -207,7 +207,7 @@
 
     &.current-article,
     &:hover {
-      background-color: #19759c;
+      background-color: $brand_color;
       color: $brand_text_color;
       text-decoration: none;
     }

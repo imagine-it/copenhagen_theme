@@ -1008,7 +1008,7 @@ ul {
 /***** Hero component *****/
 .hero {
   /*background-image: url($homepage_background_image);*/
-  background-color: #19759c;
+  background-color: $brand_color;
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -1019,7 +1019,7 @@ ul {
 
 .subpage-hero {
   /*background-image: url($homepage_background_image);*/
-  background-color: #19759c;
+  background-color: $brand_color;
   background-position: center;
   background-size: cover;
   height: 150px;
@@ -1137,10 +1137,10 @@ ul {
 }
 
 .blocks-item {
-  border: 1px solid #19759c;
+  border: 1px solid $brand_color;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #19759c;
+  color: $brand_color;
   display: flex;
   flex: 0 0 340px;
   margin: 0 0 30px;
@@ -1155,7 +1155,7 @@ ul {
 }
 
 .blocks-item:hover, .blocks-item:focus, .blocks-item:active {
-  background-color: #19759c;
+  background-color: $brand_color;
 }
 
 .blocks-item:hover *, .blocks-item:focus *, .blocks-item:active * {
@@ -1180,7 +1180,7 @@ ul {
 }
 
 .blocks-item-link {
-  color: #19759c;
+  color: $brand_color;
   padding: 20px 30px;
   display: flex;
   flex-direction: column;
@@ -1195,7 +1195,7 @@ ul {
 
 .blocks-item-link:focus {
   outline: 0;
-  box-shadow: 0 0 0 3px #19759c;
+  box-shadow: 0 0 0 3px $brand_color;
   text-decoration: none;
 }
 
